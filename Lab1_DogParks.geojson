@@ -1,0 +1,194 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ramsden Park",
+                "marker-color": "#d92626",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "Fenced?": "Yes"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.395850667161,
+                    43.67635056456959
+                ],
+                "type": "Point"
+            },
+            "id": 0
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Barbara Hall Park",
+                "marker-color": "#d92626",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "Fenced?": "Yes"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38000232492843,
+                    43.666608087515584
+                ],
+                "type": "Point"
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Allan Gardens",
+                "marker-color": "#d92626",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "Fenced?": "Yes"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.37478355952565,
+                    43.66250099200147
+                ],
+                "type": "Point"
+            },
+            "id": 2
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Grange Park",
+                "marker-color": "#d92626",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "Fenced?": "Yes"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39235762525014,
+                    43.652048117731084
+                ],
+                "type": "Point"
+            },
+            "id": 3
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Huron Street Playground",
+                "marker-color": "#d92626",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "Fenced?": "Yes"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.40181177100904,
+                    43.66930044717054
+                ],
+                "type": "Point"
+            },
+            "id": 4
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Queen's Park",
+                "stroke": "#22990a",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#4bbf0d",
+                "fill-opacity": 0.5,
+                "Fenced?": "Yes"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -79.39280690709988,
+                            43.66600191809442
+                        ],
+                        [
+                            -79.39330313164662,
+                            43.66584295103053
+                        ],
+                        [
+                            -79.39358668853072,
+                            43.66561219164072
+                        ],
+                        [
+                            -79.3938489786482,
+                            43.6650942617797
+                        ],
+                        [
+                            -79.3935157993097,
+                            43.664155823023975
+                        ],
+                        [
+                            -79.39337402086765,
+                            43.6639814666668
+                        ],
+                        [
+                            -79.39274310680092,
+                            43.66333531810267
+                        ],
+                        [
+                            -79.39253752806037,
+                            43.663248138795836
+                        ],
+                        [
+                            -79.39074403076947,
+                            43.663632752432704
+                        ],
+                        [
+                            -79.39149545651206,
+                            43.665535271646974
+                        ],
+                        [
+                            -79.39172230201879,
+                            43.66576603133248
+                        ],
+                        [
+                            -79.39222561548802,
+                            43.665976278273746
+                        ],
+                        [
+                            -79.39280690709988,
+                            43.66600191809442
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": 5
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Path": "From GGR472 Class to Queen's Park",
+                "stroke": "#555555",
+                "stroke-width": 2.5,
+                "stroke-opacity": 1
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        -79.39793977346078,
+                        43.66275031282973
+                    ],
+                    [
+                        -79.3984856789475,
+                        43.66407326969551
+                    ],
+                    [
+                        -79.3938045394019,
+                        43.66506053194209
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": 6
+        }
+    ]
+}

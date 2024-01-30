@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Park Locations Near UofT</title>
+    <!-- Bootstrap style sheet link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #8baf9096;">
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #2d5a3396;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GGR472 Lab1</a>
+            <!-- makes toggles work on small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- sections in nav bar -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container text-center p-3 mb-2 bg-green">
+        <!-- heading -->
+        <div>
+            <h1>Dog Park Locations near UofT</h1>
+        </div>
+        <!-- Adding an image WORKING -->
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <img src="dog_image_lab1.jpeg" alt="Dogs playing">
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Link to internal geojson file stored in Data folder NOT WORKING -->
+            <p>To view GeoJASON file with dog park locations -
+                <a target="”_blank”" href="Lab1_DogParks.geojson">CLICK HERE!</a>
+            </p>
+
+            <!-- Link to external webpage and view in same window -->
+            <p>
+                To find out more about Toronto's dog parks -
+                <a href="https://www.toronto.ca/community-people/animals-pets/pets-in-the-city/dog-off-leash-areas/">CLICK
+                    HERE!
+                </a>
+            </p>
+            <p>Do you want to see another cute dog?
+            </p>
+        </div>
+
+        <!-- Bootstrap grid - Making the button centered -->
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col-6 text center">
+                <button type="button" class="btn btn-success" id="my-btn">Click for a suprise!</button>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Source of external JavaScript files -->
+    <script src="script2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
